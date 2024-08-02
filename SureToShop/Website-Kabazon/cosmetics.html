@@ -1,0 +1,385 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		#d1{border:5px solid #392613; padding:10px;width:1450px; height:1500px;display:flex;flex-direction:row;flex-wrap:wrap;flex-flow:column wrap-reverse;justify-content:space-around;align-content:flex-center; align-items:center; align-self: center}
+		#a3{background-color: #fff0b3;flex-grow:9; align-self:flex-end; order:12; width:300px;height:300px; animation-name:abc;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction:reverse;}
+            @keyframes abc{
+            from{border-radius:0%;}
+            
+            to{border-radius:30%;}
+        }
+		.c1{border:3px solid #392613; height:100px;font-weight:bold;font-size:15px;text-align:center;margin:20px 20px; width:100px;}
+        .button{background-color:#e69900;color:white;}
+        .wish{background-color: #cc0000;color:white;}
+        a:hover {
+          color: green;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+
+        .tab {overflow: hidden;border: 1px solid #ccc;background-color: #f1f1f1;height:45px;}
+            .tab button {background-color: inherit;float: left;border: none;outline: none;cursor: pointer;padding: 14px 16px;transition: 0.3s;font-size: 17px;}
+            .tab button:hover {background-color: #ddd;}
+            .tab button.active {background-color: #ccc;}
+            .tabcontent {display: none;padding: 6px 12px;border: 1px solid #ccc;border-top: none;}
+            .topright {float: right;cursor: pointer;font-size: 28px;}
+            .topright:hover {color: red;}
+            .topnav .search-container {float: right;}
+            .topnav input[type=text] {padding: 6px;margin-top: 8px;font-size: 17px;border: none;}
+            .topnav .search-container button {float: right;padding: 6px 10px;margin-top: 8px;margin-right: 16px;background: #ddd;font-size: 17px;border: none;cursor: pointer;}
+            .topnav .search-container button:hover {background: #ccc;}
+            
+            @media screen and (max-width: 600px) {
+            .topnav .search-container {float: none;}
+            .topnav a, .topnav input[type=text], .topnav .search-container button {float: none;display: block;text-align: left;width: 100%;margin: 0;padding: 14px;}
+            .topnav input[type=text] {border: 1px solid #ccc; }
+        }
+        div.sticky {
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          background-color:#e69900;color:white;
+          padding: 50px;
+          font-size: 20px;width:1380px;height:5px;
+      }
+	</style>
+
+    <script>
+        function abc1(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Body Scrub - Rs.425");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+        }
+
+        function def1(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Body Scrub");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+        }
+
+        function abc2(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Mascara - Rs.299");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+         function def2(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Mascara");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+         function abc3(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Foundation - Rs.599");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function def3(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Foundation");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+         function abc4(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Chapstick - Rs.149");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function def4(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Chapstick");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+         function abc5(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Face Mask - Rs.199");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function def5(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Face Mask");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+         function abc6(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Lipsticks - Rs.499");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function def6(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Lipsticks");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+         function abc7(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Rose Water - Rs.299");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function def7(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Rose Water");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+        
+         function abc8(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Body Lotion -Rs.349");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function def8(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Body Lotion");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+         function abc9(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Foot Cream - Rs.999");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function def9(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Foot Cream");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+
+         function abc(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Shower Gel - Rs.399");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function def(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Shower Gel");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+        function ban(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Face Wash - Rs.349");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function ban1(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Face Wash");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+        function kbb(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Face Serum - Rs.249");
+            a.appendChild(b);
+            var c=document.getElementById("aa");
+            var d=document.getElementById("c1");
+            c.insertBefore(a,d)
+
+        }
+
+        function kbb1(){
+            var a =document.createElement("li");
+            var b= document.createTextNode("Face Serum");
+            a.appendChild(b);
+            var c=document.getElementById("bb");
+            var d=document.getElementById("c2");
+            c.insertBefore(a,d)
+
+        }
+
+
+
+
+    </script>
+
+</head>
+
+       <body style="background-image:linear-gradient( #ffecb3,#cc9900, #ffecb3,#cc9900)">
+
+        <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
+              <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+              <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+               <div class="topnav">
+                <div class="search-container">
+                 <form action="/action_page.php">
+                 <input type="text" placeholder="Search.." name="search">
+                 <button type="submit"><input type="image" src="img/search.png" alt="Submit" width="15" height="15"><i class="fa fa-search"></i></button>
+                 </form>
+                </div>
+               </div>
+            </div>
+
+            <div id="Home" class="tabcontent">
+              <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+              <p>Click here to go to Home.<br><br><button type='submit' onclick="window.location.href='Home.html';">Home</button></p>
+            </div>
+
+            <div id="About" class="tabcontent">
+              <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+              <h3>About</h3>
+              <p>Kabazon offers a well-curated range of fashion items for men, women and kids. We aim to provide an enjoyable shopping experience for all our customers.</p> 
+            </div>
+
+            <div id="Contact" class="tabcontent">
+              <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+              <h3>Contact</h3>
+              <p><address>Email ID- <a href="mailto:kabazonkz@mail.com">kabazonkz@mail.com</a>.</address><br>Contact Number - 7654567832</p>
+            </div>
+
+            <script>
+                function openCity(evt, cityName) {
+                  var i, tabcontent, tablinks;
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+               document.getElementById("defaultClose").click();
+             </script>
+
+        <h1 style="text-align: center; color:#392613">KABAZON</h1>
+        <div class="sticky">Find your cart and wishlist at the bottom of this page. Enjoy Shopping :)</div>
+    	<div id="d1">
+    		<div id="a3" class="c1">Foot Cream<br><br><img src="img/z1.png" width="160" height="180"><br><p><b>Peppermint Intensive Cooling Sustainable Foot Rescue Cream 100 ml.</b><br><b>Rs.999</b></p><br><button onclick="def9()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc9()" type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Shower Gel<br><br><img src="img/z2.png" width="170" height="200"><br><p>Unisex Strawberry Shower Gel 250 ml.<br><b>Rs.399</b></p><br><button onclick="def()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc()" type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Rose Water<br><br><img src="img/z3.png" width="170" height="180"><br><p>Sustainable Pure Rose Water Face & Body Mist 50 ml.<br><b>Rs.299</b></p><br><button onclick="def7()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc7()" type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Body Lotion<br><br><img src="img/z4.png" width="170" height="180"><br><p>Raw Moisturizing Coffee Sustainable Body Lotion 200 ml<br><b>Rs.349</b></p><br><button onclick="def8()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc8()"type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Face Mask<br><br><img src="img/z5.png" width="170" height="200"><br><p> Real Nature Lemon Face Mask 20 g.<br><b>Rs.199</b></p><br><button onclick="def5()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc5()" type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Lipsticks<br><br><img src="img/z6.png" width="160" height="200"><br><p>Ayurvedic Lipstick Micro Mini Trial Kit 38 g.<br><b>Rs.499</b></p><br><button onclick="def6()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc6()" type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Foundation<br><br><img src="img/z7.png" width="170" height="180"><br><p>New York Fit Me Matte + Poreless Liquid Foundation.<br><b>Rs.599</b></p><br><button onclick="def3()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc3()" type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Chapstick<br><br><img src="img/z8.png" width="170" height="180"><br><p>Lip Love Chapstick SPF 15 Lip Care - Strawberry.<br><b>Rs.149</b></p><br><button onclick="def4()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc4()" type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Body Scrub<br><br><img src="img/z9.png" width="170" height="200"><br><p>Raw Tan Removal Coffee Body Scrub 100 g.<br><b>Rs.425</b></p><br><button onclick="def1()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc1()" type="button" class="button">Add to cart</button></div>
+    		
+            <div id="a3" class="c1">Face Serum<br><br><img src="img/z10.png" width="170" height="200"><br><p>Crystal Micro-Essence Face Serum 22 ml.<br><b>Rs.249</b></p><br><button onclick="kbb1()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="kbb()" type="button" class="button">Add to cart</button></div>
+
+            <div id="a3" class="c1">Face Wash<br><br><img src="img/z11.png" width="170" height="200"><br><p>Raw Coffee Sustainable Face Wash 100 ml<br><b>Rs.349</b></p><br><button onclick="ban1()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="ban()" type="button" class="button">Add to cart</button></div>
+            
+            <div id="a3" class="c1">Mascara<br><br><img src="img/z12.png" width="170" height="180"><br><p>New York Hypercurl Washable Mascara 9.2 ml.<br><b>Rs.299</b></p><br><button onclick="def2()" type="button" class="wish">Wishlist ♡</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="abc2()" type="button" class="button">Add to cart</button></div>
+    	</div>
+       
+        <h3 style="text-align: center;color:#392613;">We appreciate your business. Thank you!</h3>
+        <br>
+        <button  style="width:90;height:50;" type="button" class="button">My Cart</button><div id="aa"><p id="c1"></p></div>
+      <a style="color:black" href="Checkout.html" class="checkout btn">Proceed with cart items</a><br><br>
+        <button style="width:100;height:50;"type="button" class="wish">My Wishlist ♡</button><div id="bb"><p id="c2"></p></div>
+    
+    </body>
+</html>
